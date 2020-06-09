@@ -14,6 +14,8 @@
 		410C08BF248FFC0500A965B6 /* Waste_Less.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 410C08BD248FFC0500A965B6 /* Waste_Less.xcdatamodeld */; };
 		410C08C1248FFC0900A965B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410C08C0248FFC0900A965B6 /* Assets.xcassets */; };
 		410C08C4248FFC0900A965B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C08C2248FFC0900A965B6 /* LaunchScreen.storyboard */; };
+		410C08CC2490101E00A965B6 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C08CB2490101E00A965B6 /* Question1ViewController.swift */; };
+		410C08CE2490130600A965B6 /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C08CD2490130600A965B6 /* Question2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		410C08C0248FFC0900A965B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		410C08C3248FFC0900A965B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		410C08C5248FFC0900A965B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410C08CB2490101E00A965B6 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
+		410C08CD2490130600A965B6 /* Question2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				410C08B6248FFC0500A965B6 /* SceneDelegate.swift */,
 				410C08B8248FFC0500A965B6 /* ViewController.swift */,
 				410C08BA248FFC0500A965B6 /* Main.storyboard */,
+				410C08CD2490130600A965B6 /* Question2ViewController.swift */,
+				410C08CB2490101E00A965B6 /* Question1ViewController.swift */,
 				410C08C0248FFC0900A965B6 /* Assets.xcassets */,
 				410C08C2248FFC0900A965B6 /* LaunchScreen.storyboard */,
 				410C08C5248FFC0900A965B6 /* Info.plist */,
@@ -143,6 +149,8 @@
 			files = (
 				410C08B9248FFC0500A965B6 /* ViewController.swift in Sources */,
 				410C08BF248FFC0500A965B6 /* Waste_Less.xcdatamodeld in Sources */,
+				410C08CC2490101E00A965B6 /* Question1ViewController.swift in Sources */,
+				410C08CE2490130600A965B6 /* Question2ViewController.swift in Sources */,
 				410C08B5248FFC0500A965B6 /* AppDelegate.swift in Sources */,
 				410C08B7248FFC0500A965B6 /* SceneDelegate.swift in Sources */,
 			);
