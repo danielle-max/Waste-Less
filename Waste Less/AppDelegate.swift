@@ -16,9 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if let todo = fetchData() {
+            todoList = todo
+        }else {
+            todoList = [String]()
+        }
         return true
     }
 
+    func applicationDidEnterBackground(_ application: UIApplication) {
+        saveData(todoList: todoList!)
+    }
+    
+    func applicationWillTerminate(_ application: UIApplication) {
+        saveData(todoList: todoList!)
+    }
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
