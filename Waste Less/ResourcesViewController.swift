@@ -9,14 +9,32 @@
 import UIKit
 
 class ResourcesViewController: UIViewController {
+    
+    @IBOutlet weak var environmentActivism: UITextView!
+    
+    
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTextView()
+     
 
         // Do any additional setup after loading the view.
     }
+    func updateTextView() {
+        let path = "https://www.greenpeace.org/usa/"
+        let text = environmentActivism.text ?? ""
+        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "Environmental activism")
+        let font = environmentActivism.font
+        let textColor = environmentActivism.textColor
+        environmentActivism.attributedText = attributedString
+        environmentActivism.font = font
+        environmentActivism.textColor = textColor}
     
 
+    
+    
     /*
     // MARK: - Navigation
 
@@ -28,3 +46,4 @@ class ResourcesViewController: UIViewController {
     */
 
 }
+

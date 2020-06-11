@@ -17,6 +17,7 @@
 		410C08CC2490101E00A965B6 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C08CB2490101E00A965B6 /* Question1ViewController.swift */; };
 		410C08CE2490130600A965B6 /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C08CD2490130600A965B6 /* Question2ViewController.swift */; };
 		41BEE3B0249120970029D10F /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEE3AF249120970029D10F /* ResourcesViewController.swift */; };
+		41BEE3B2249158190029D10F /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEE3B1249158190029D10F /* NSAttributedStringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		410C08CB2490101E00A965B6 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
 		410C08CD2490130600A965B6 /* Question2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
 		41BEE3AF249120970029D10F /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		41BEE3B1249158190029D10F /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				410C08B6248FFC0500A965B6 /* SceneDelegate.swift */,
 				410C08B8248FFC0500A965B6 /* ViewController.swift */,
 				410C08BA248FFC0500A965B6 /* Main.storyboard */,
+				41BEE3B1249158190029D10F /* NSAttributedStringExtension.swift */,
 				41BEE3AF249120970029D10F /* ResourcesViewController.swift */,
 				410C08CD2490130600A965B6 /* Question2ViewController.swift */,
 				410C08CB2490101E00A965B6 /* Question1ViewController.swift */,
@@ -153,6 +156,7 @@
 				410C08B9248FFC0500A965B6 /* ViewController.swift in Sources */,
 				410C08BF248FFC0500A965B6 /* Waste_Less.xcdatamodeld in Sources */,
 				410C08CC2490101E00A965B6 /* Question1ViewController.swift in Sources */,
+				41BEE3B2249158190029D10F /* NSAttributedStringExtension.swift in Sources */,
 				41BEE3B0249120970029D10F /* ResourcesViewController.swift in Sources */,
 				410C08CE2490130600A965B6 /* Question2ViewController.swift in Sources */,
 				410C08B5248FFC0500A965B6 /* AppDelegate.swift in Sources */,
