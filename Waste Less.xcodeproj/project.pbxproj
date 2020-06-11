@@ -16,6 +16,10 @@
 		410C08C4248FFC0900A965B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410C08C2248FFC0900A965B6 /* LaunchScreen.storyboard */; };
 		410C08CC2490101E00A965B6 /* Question1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C08CB2490101E00A965B6 /* Question1ViewController.swift */; };
 		410C08CE2490130600A965B6 /* Question2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410C08CD2490130600A965B6 /* Question2ViewController.swift */; };
+		41332AEE2492A0BA00103EDE /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41332AED2492A0BA00103EDE /* ToDo.swift */; };
+		41332AF02492A0E000103EDE /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41332AEF2492A0E000103EDE /* AddToDoViewController.swift */; };
+		41332AF22492A22800103EDE /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41332AF12492A22800103EDE /* CompleteToDoViewController.swift */; };
+		41332AF42492A31A00103EDE /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41332AF32492A31A00103EDE /* ToDoTableViewController.swift */; };
 		41BEE3B0249120970029D10F /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEE3AF249120970029D10F /* ResourcesViewController.swift */; };
 		41BEE3B2249158190029D10F /* NSAttributedStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BEE3B1249158190029D10F /* NSAttributedStringExtension.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +36,10 @@
 		410C08C5248FFC0900A965B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		410C08CB2490101E00A965B6 /* Question1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1ViewController.swift; sourceTree = "<group>"; };
 		410C08CD2490130600A965B6 /* Question2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2ViewController.swift; sourceTree = "<group>"; };
+		41332AED2492A0BA00103EDE /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		41332AEF2492A0E000103EDE /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		41332AF12492A22800103EDE /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
+		41332AF32492A31A00103EDE /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		41BEE3AF249120970029D10F /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		41BEE3B1249158190029D10F /* NSAttributedStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +78,10 @@
 				410C08B6248FFC0500A965B6 /* SceneDelegate.swift */,
 				410C08B8248FFC0500A965B6 /* ViewController.swift */,
 				410C08BA248FFC0500A965B6 /* Main.storyboard */,
+				41332AF32492A31A00103EDE /* ToDoTableViewController.swift */,
+				41332AF12492A22800103EDE /* CompleteToDoViewController.swift */,
+				41332AED2492A0BA00103EDE /* ToDo.swift */,
+				41332AEF2492A0E000103EDE /* AddToDoViewController.swift */,
 				41BEE3B1249158190029D10F /* NSAttributedStringExtension.swift */,
 				41BEE3AF249120970029D10F /* ResourcesViewController.swift */,
 				410C08CD2490130600A965B6 /* Question2ViewController.swift */,
@@ -153,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41332AEE2492A0BA00103EDE /* ToDo.swift in Sources */,
+				41332AF42492A31A00103EDE /* ToDoTableViewController.swift in Sources */,
 				410C08B9248FFC0500A965B6 /* ViewController.swift in Sources */,
+				41332AF02492A0E000103EDE /* AddToDoViewController.swift in Sources */,
 				410C08BF248FFC0500A965B6 /* Waste_Less.xcdatamodeld in Sources */,
+				41332AF22492A22800103EDE /* CompleteToDoViewController.swift in Sources */,
 				410C08CC2490101E00A965B6 /* Question1ViewController.swift in Sources */,
 				41BEE3B2249158190029D10F /* NSAttributedStringExtension.swift in Sources */,
 				41BEE3B0249120970029D10F /* ResourcesViewController.swift in Sources */,
