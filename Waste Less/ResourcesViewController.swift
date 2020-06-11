@@ -13,11 +13,15 @@ class ResourcesViewController: UIViewController {
     @IBOutlet weak var environmentActivism: UITextView!
     
     
+    @IBOutlet weak var recycleLink: UITextView!
+    
+    
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         updateTextView()
+        updateTextView1()
      
 
         // Do any additional setup after loading the view.
@@ -31,7 +35,15 @@ class ResourcesViewController: UIViewController {
         environmentActivism.attributedText = attributedString
         environmentActivism.font = font
         environmentActivism.textColor = textColor}
-    
+    func updateTextView1() {
+        let path = "https://recyclingsimplified.com/recycling-basics/"
+        let text = recycleLink.text ?? ""
+        let attributedString = NSAttributedString.makeHyperlink(for: path, in: text, as: "How to Recycle")
+        let font = recycleLink.font
+        let textColor = recycleLink.textColor
+        recycleLink.attributedText = attributedString
+        recycleLink.font = font
+        recycleLink.textColor = textColor}
 
     
     
@@ -46,4 +58,5 @@ class ResourcesViewController: UIViewController {
     */
 
 }
+
 

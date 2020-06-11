@@ -19,7 +19,7 @@
                                 <rect key="frame" x="70" y="405" width="270" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="1" green="0.92862621243557986" blue="0.59698966145644738" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vKY-1s-Z8Z">
@@ -33,31 +33,27 @@
                                 <items/>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhB-9p-koa">
-                                <rect key="frame" x="114" y="696" width="32" height="30"/>
+                                <rect key="frame" x="53" y="714" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Quiz"/>
+                                <state key="normal" title="Quiz">
+                                    <color key="titleColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="imG-Yf-zDb" kind="show" id="cl1-lu-Ud1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umw-aj-rE1">
-                                <rect key="frame" x="186" y="699" width="39" height="30"/>
+                                <rect key="frame" x="186" y="714" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Goals"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4y7-SV-b8G">
-                                <rect key="frame" x="243" y="714" width="72" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Resources"/>
-                                <connections>
-                                    <segue destination="UwN-eK-OEq" kind="show" id="RyV-w9-Q1g"/>
-                                </connections>
+                                <state key="normal" title="Goals">
+                                    <color key="titleColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Waste Less" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGj-Ya-cUs">
-                                <rect key="frame" x="32" y="101" width="354" height="29"/>
+                                <rect key="frame" x="32" y="101" width="354" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <color key="textColor" red="1" green="0.87260495937285487" blue="0.55974231059814561" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ei2-MX-4Rh">
@@ -65,14 +61,24 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <state key="normal" title="Start Here!">
-                                    <color key="titleColor" red="1" green="0.92862621239999998" blue="0.59698966149999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="imG-Yf-zDb" kind="show" id="eDg-vo-9pb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4y7-SV-b8G">
+                                <rect key="frame" x="303" y="714" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Resources">
+                                    <color key="titleColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UwN-eK-OEq" kind="show" id="Nzq-P9-hHB"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.27422904904040485" green="0.69390466370558368" blue="0.45290013158100884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.97545358698480011" blue="0.74505164279546587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -198,7 +204,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.97545358699999996" blue="0.74505164280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Rj5-Wh-49D"/>
                     </view>
                     <navigationItem key="navigationItem" id="3aP-hP-lSR"/>
@@ -290,8 +296,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucw-Ex-HD1">
+                                <rect key="frame" x="43" y="38" width="81" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="imG-Yf-zDb" kind="show" id="Afb-ET-pSs"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.97545358699999996" blue="0.74505164280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="M8O-Je-vgS"/>
                     </view>
                     <navigationItem key="navigationItem" id="UEe-wu-Rvc"/>
@@ -303,60 +320,51 @@
         <!--Resources View Controller-->
         <scene sceneID="gse-Jq-l3h">
             <objects>
-                <viewController id="UwN-eK-OEq" customClass="ResourcesViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UwN-eK-OEq" customClass="ResourcesViewController" customModule="Waste_Less" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oTW-1q-sN6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="Environmental activism" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xbh-X2-Hef">
-                                <rect key="frame" x="33" y="129" width="361" height="61"/>
+                                <rect key="frame" x="28" y="129" width="361" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="How to Recycle" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NcD-SD-97R">
-                                <rect key="frame" x="33" y="198" width="350" height="53"/>
+                                <rect key="frame" x="28" y="198" width="361" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.94788867235183716" green="0.31698304414749146" blue="0.11154086142778397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="Sustainable Clothing Brands" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2UR-BS-Xi3">
-                                <rect key="frame" x="33" y="259" width="339" height="51"/>
+                                <rect key="frame" x="28" y="275" width="361" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="Volunteer with Rescuing Leftover Food (an organization that redistributes unused food to communities in need)" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="25x-XH-ZJu">
-                                <rect key="frame" x="42" y="388" width="328" height="136"/>
+                                <rect key="frame" x="28" y="406" width="361" height="136"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="How to Compost" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="33v-0l-55L">
-                                <rect key="frame" x="44" y="318" width="328" height="62"/>
+                                <rect key="frame" x="28" y="340" width="361" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" text="Listicle of reusable household/everyday items" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y9k-tq-1KP">
-                                <rect key="frame" x="44" y="642" width="326" height="97"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.94788867235183716" green="0.31698304414749146" blue="0.11154086142778397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -370,16 +378,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="Meat/Dairy-free recipes" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gUA-Ii-fsf">
-                                <rect key="frame" x="42" y="549" width="326" height="53"/>
+                                <rect key="frame" x="28" y="561" width="361" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" red="0.94788867235183716" green="0.31698304414749146" blue="0.11154086142778397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" text="Listicle of reusable household/everyday items" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="y9k-tq-1KP">
+                                <rect key="frame" x="28" y="629" width="361" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2055052668" green="0.5200071383" blue="0.33940008430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.97545358699999996" blue="0.74505164280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Dzi-vy-b5C"/>
                     </view>
                     <navigationItem key="navigationItem" id="Dh6-JN-xjT"/>
@@ -389,7 +406,7 @@
                         <outlet property="environmentActivism" destination="xbh-X2-Hef" id="akv-Mg-xIB"/>
                         <outlet property="listicleLink" destination="y9k-tq-1KP" id="a0n-qy-Bwm"/>
                         <outlet property="recipeLink" destination="gUA-Ii-fsf" id="4Bg-r9-nfJ"/>
-                        <outlet property="recycleLink" destination="NcD-SD-97R" id="VaU-pA-e34"/>
+                        <outlet property="recycleLink" destination="NcD-SD-97R" id="8ti-cw-q1v"/>
                         <outlet property="volunteerLink" destination="25x-XH-ZJu" id="Xsu-9f-xxt"/>
                     </connections>
                 </viewController>
@@ -399,6 +416,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cl1-lu-Ud1"/>
+        <segue reference="Afb-ET-pSs"/>
     </inferredMetricsTieBreakers>
 </document>
