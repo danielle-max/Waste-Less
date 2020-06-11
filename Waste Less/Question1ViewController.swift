@@ -19,7 +19,7 @@ class Question1ViewController: UIViewController {
     }
     
     @IBAction func yes2(_ sender: Any) {
-         let alertController = UIAlertController(title: "Awesome!", message: "Make sure you're abiding by recycling guidelines!", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Okay", style: .default)); self.present(alertController, animated: true, completion: nil)
+         let alertController = UIAlertController(title: "Awesome!", message: "Make sure you're abiding by local recycling guidelines!", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Okay", style: .default)); self.present(alertController, animated: true, completion: nil)
     }
     
     
@@ -40,7 +40,7 @@ class Question1ViewController: UIViewController {
     }
     
     @IBAction func no4(_ sender: Any) {
-         let alertController = UIAlertController(title: "That's okay!", message: "In some areas, public transport in inaccessible. Make an effort to carpool, ride a bike, or walk once in awhile.", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Okay", style: .default)); self.present(alertController, animated: true, completion: nil)
+         let alertController = UIAlertController(title: "That's okay!", message: "In some areas, public transport is inaccessible. Make an effort to carpool, ride a bike, or walk once in awhile.", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Okay", style: .default)); self.present(alertController, animated: true, completion: nil)
     }
     
     
