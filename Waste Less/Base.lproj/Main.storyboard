@@ -131,6 +131,7 @@
                                 <state key="normal" title="Yes"/>
                                 <connections>
                                     <action selector="yes1:" destination="imG-Yf-zDb" eventType="touchUpInside" id="zD3-ux-AGc"/>
+                                    <action selector="yes2:" destination="imG-Yf-zDb" eventType="touchUpInside" id="7Kv-1q-iTM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KL-W0-SqL">

@@ -18,6 +18,7 @@ class Question1ViewController: UIViewController {
          let alertController = UIAlertController(title: "Awesome!", message: "Keep it on!", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Okay", style: .default)); self.present(alertController, animated: true, completion: nil)
     }
     
+
     @IBAction func yes2(_ sender: Any) {
          let alertController = UIAlertController(title: "Awesome!", message: "Make sure you're abiding by local recycling guidelines!", preferredStyle: .alert); alertController.addAction(UIAlertAction(title: "Okay", style: .default)); self.present(alertController, animated: true, completion: nil)
     }
