@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ViewController: UIViewController {
     
@@ -17,8 +18,32 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
+   
+        let center = UNUserNotificationCenter.current()
+        
+        center.requestAuthorization(options: [.alert, .sound]) { (granted, error) in
+            
+        }
+    
+    let content = UNMutableNotificationContent()
+        content.title = "Notification"
+        content.body = "Celebrate the Earth!"
+    
 
+    let date = Date().addingTimeInterval(8)
+        let dateComponents = Calendar.current.dateComponents([.year, .month, .day, .second, .hour, .minute], from: date)
+    
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: false)
+    
+    let uuidString = UUID().uuidString
+    
+        let request = UNNotificationRequest(identifier: uuidString, content: content, trigger: trigger)
+        
+        center.add(request) { (error) in
+            
+        }
 
 }
 
+
+}
