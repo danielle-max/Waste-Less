@@ -12,7 +12,8 @@ class AddToDoViewController: UIViewController {
     
     var previousVC = ToDoTableViewController()
     
-    @IBOutlet weak var textField: UITextField!
+   
+    @IBOutlet weak var titleTextField: UITextField!
     
     
     @IBOutlet weak var importantSwitch: UISwitch!
