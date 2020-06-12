@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;The average American person produces an average of 4.40 pounds of waste daily.&quot; - EPA" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNn-ZE-3J8">
@@ -86,14 +86,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="103" y="120"/>
+            <point key="canvasLocation" x="96" y="120"/>
         </scene>
         <!--Question1 View Controller-->
         <scene sceneID="EZX-hr-Jjd">
             <objects>
                 <viewController id="imG-Yf-zDb" customClass="Question1ViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="apO-IH-HkR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you eat meat or dairy? " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyl-6P-Qnu">
@@ -220,7 +220,7 @@
             <objects>
                 <viewController id="oki-1y-V6o" customClass="Question2ViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lHN-TW-LK3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you compost your kitchen waste?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEu-PE-ACX">
@@ -324,7 +324,7 @@
             <objects>
                 <viewController id="UwN-eK-OEq" customClass="ResourcesViewController" customModule="Waste_Less" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oTW-1q-sN6">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" bouncesZoom="NO" editable="NO" text="Environmental activism" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xbh-X2-Hef">
@@ -454,9 +454,6 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="mNV-f5-8Q7"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -493,6 +490,7 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="Pxq-ZH-M8M" kind="relationship" relationship="rootViewController" id="fpG-C0-eFz"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="geA-0W-1xt"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BqX-JD-A1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
