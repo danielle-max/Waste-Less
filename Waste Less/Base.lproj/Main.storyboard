@@ -46,6 +46,9 @@
                                 <state key="normal" title="Goals">
                                     <color key="titleColor" red="0.98608725279999998" green="1" blue="0.52754689239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="f7S-iz-2H4" kind="show" id="55J-J4-TWp"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Waste Less" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGj-Ya-cUs">
                                 <rect key="frame" x="32" y="94" width="354" height="50"/>
@@ -406,7 +409,7 @@
                                     <color key="titleColor" red="0.98608725279999998" green="1" blue="0.52754689239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="imG-Yf-zDb" kind="show" id="jge-aB-t80"/>
+                                    <segue destination="imG-Yf-zDb" kind="show" id="eca-g0-1Q9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQj-EZ-TJh">
@@ -417,6 +420,9 @@
                                 <state key="normal" title="Goals">
                                     <color key="titleColor" red="0.98608725279999998" green="1" blue="0.52754689239999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="f7S-iz-2H4" kind="show" id="tXJ-fF-gct"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97545358699999996" blue="0.74505164280000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -443,7 +449,7 @@
             <objects>
                 <tableViewController id="Pxq-ZH-M8M" customClass="ToDoTableViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="NGQ-6b-fJr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
@@ -463,7 +469,7 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Goals" id="uu6-fc-A3O">
-                        <barButtonItem key="rightBarButtonItem" title="+" id="aVa-NY-hQs">
+                        <barButtonItem key="rightBarButtonItem" title="Add goal" width="4" id="aVa-NY-hQs">
                             <connections>
                                 <segue destination="eBg-dj-Wca" kind="show" id="sYo-hL-lGd"/>
                             </connections>
@@ -483,8 +489,9 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f7S-iz-2H4" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="nuw-Cf-DpA"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="57B-MQ-Z2U">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -502,7 +509,7 @@
             <objects>
                 <viewController id="eBg-dj-Wca" customClass="AddToDoViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zqg-md-cMa">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="🌳Important:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbz-lX-AxL">
@@ -551,7 +558,7 @@
             <objects>
                 <viewController id="U3i-dS-rNb" customClass="CompleteToDoViewController" customModule="Waste_Less" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VQj-jD-e5X">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bcZ-dv-ruW">
@@ -586,7 +593,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cl1-lu-Ud1"/>
+        <segue reference="tXJ-fF-gct"/>
+        <segue reference="eca-g0-1Q9"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="125" height="109"/>
